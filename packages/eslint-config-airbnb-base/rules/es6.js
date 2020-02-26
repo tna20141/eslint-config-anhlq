@@ -19,10 +19,6 @@ module.exports = {
       requireReturnForObjectLiteral: false,
     }],
 
-    // require parens in arrow function arguments
-    // https://eslint.org/docs/rules/arrow-parens
-    'arrow-parens': ['error', 'always'],
-
     // require space before/after arrow function's arrow
     // https://eslint.org/docs/rules/arrow-spacing
     'arrow-spacing': ['error', { before: true, after: true }],

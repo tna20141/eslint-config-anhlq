@@ -366,15 +366,6 @@ module.exports = {
       ignoreComments: false,
     }],
 
-    // disallow dangling underscores in identifiers
-    // https://eslint.org/docs/rules/no-underscore-dangle
-    'no-underscore-dangle': ['error', {
-      allow: [],
-      allowAfterThis: false,
-      allowAfterSuper: false,
-      enforceInMethodNames: true,
-    }],
-
     // disallow the use of Boolean literals in conditional expressions
     // also, prefer `a || b` over `a ? a : b`
     // https://eslint.org/docs/rules/no-unneeded-ternary

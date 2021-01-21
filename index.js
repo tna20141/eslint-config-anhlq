@@ -5,6 +5,7 @@ module.exports = {
     "no-underscore-dangle": 0,
     "no-console": 2,
     "no-param-reassign": 2,
+    "no-throw-literal": 0,
     "prefer-destructuring": 0,
     "arrow-parens": 0,
     "prefer-promise-reject-errors": 0,
